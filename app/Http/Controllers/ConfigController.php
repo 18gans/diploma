@@ -9,12 +9,13 @@
 namespace App\Http\Controllers;
 
 
+use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Artisan;
 
 class ConfigController extends Controller
 {
 
-    public function command($request)
+    public function command(Request $request)
     {
         if ($request->token == 'kasya') {
             return Artisan::call($request->command);
