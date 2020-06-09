@@ -30,7 +30,7 @@
 
                             <div class="form-group row">
                                 <label for="password"
-                                       class="col-md-4 col-form-label text-md-right">Пароль</label>
+                                       class="col-md-4 col-form-label text-md-right">Құпия сөз</label>
 
                                 <div class="col-md-6">
                                     <input id="password" type="password"
